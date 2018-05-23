@@ -1,0 +1,3053 @@
+{
+    "dummy": [
+        [
+            "wait_blocks",
+            {
+                "count": 1,
+                "esc": "d",
+                "miss_blocks": 21729599
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "B",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_update",
+                            {
+                                "account": "initminer",
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "Bpublickey:active-initminerB",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "json_metadata": "",
+                                "memo_key": "Bpublickey:memo-initminerB",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "Bpublickey:owner-initminerB",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "Bpublickey:posting-initminerB",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ],
+                        [
+                            "transfer_to_vesting",
+                            {
+                                "amount": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "from": "initminer",
+                                "to": "initminer"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "initminer",
+                                "approve": true,
+                                "witness": "initminer"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "5JNHfZYKGaomSFvd4NUdQ9qMcEAC43kujbfjueTHpVapX1Kzq2n"
+                    ]
+                }
+            }
+        ],
+        [
+            "wait_blocks",
+            {
+                "count": 1,
+                "esc": "d"
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-0q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-0q",
+                                "new_account_name": "init-0",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-0q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-0q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-1q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-1q",
+                                "new_account_name": "init-1",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-1q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-1q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-2q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-2q",
+                                "new_account_name": "init-2",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-2q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-2q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-3q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-3q",
+                                "new_account_name": "init-3",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-3q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-3q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-4q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-4q",
+                                "new_account_name": "init-4",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-4q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-4q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-5q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-5q",
+                                "new_account_name": "init-5",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-5q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-5q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-6q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-6q",
+                                "new_account_name": "init-6",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-6q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-6q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-7q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-7q",
+                                "new_account_name": "init-7",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-7q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-7q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-8q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-8q",
+                                "new_account_name": "init-8",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-8q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-8q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-9q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-9q",
+                                "new_account_name": "init-9",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-9q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-9q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-10q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-10q",
+                                "new_account_name": "init-10",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-10q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-10q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-11q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-11q",
+                                "new_account_name": "init-11",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-11q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-11q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-12q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-12q",
+                                "new_account_name": "init-12",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-12q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-12q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-13q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-13q",
+                                "new_account_name": "init-13",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-13q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-13q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-14q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-14q",
+                                "new_account_name": "init-14",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-14q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-14q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-15q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-15q",
+                                "new_account_name": "init-15",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-15q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-15q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-16q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-16q",
+                                "new_account_name": "init-16",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-16q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-16q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-17q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-17q",
+                                "new_account_name": "init-17",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-17q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-17q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-18q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-18q",
+                                "new_account_name": "init-18",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-18q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-18q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-19q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-19q",
+                                "new_account_name": "init-19",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-19q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-19q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-init-20q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-init-20q",
+                                "new_account_name": "init-20",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-init-20q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-init-20q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-0q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-0q",
+                                "new_account_name": "elect-0",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-0q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-0q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-1q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-1q",
+                                "new_account_name": "elect-1",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-1q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-1q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-2q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-2q",
+                                "new_account_name": "elect-2",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-2q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-2q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-3q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-3q",
+                                "new_account_name": "elect-3",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-3q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-3q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-4q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-4q",
+                                "new_account_name": "elect-4",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-4q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-4q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-5q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-5q",
+                                "new_account_name": "elect-5",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-5q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-5q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-6q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-6q",
+                                "new_account_name": "elect-6",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-6q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-6q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-7q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-7q",
+                                "new_account_name": "elect-7",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-7q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-7q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-8q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-8q",
+                                "new_account_name": "elect-8",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-8q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-8q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-elect-9q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-elect-9q",
+                                "new_account_name": "elect-9",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-elect-9q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-elect-9q",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-tnmanq",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-tnmanq",
+                                "new_account_name": "tnman",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-tnmanq",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-tnmanq",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "q",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_create",
+                            {
+                                "active": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:active-porterq",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "creator": "initminer",
+                                "fee": [
+                                    "1000000",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "json_metadata": "",
+                                "memo_key": "qpublickey:memo-porterq",
+                                "new_account_name": "porter",
+                                "owner": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:owner-porterq",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                },
+                                "posting": {
+                                    "account_auths": [],
+                                    "key_auths": [
+                                        [
+                                            "qpublickey:posting-porterq",
+                                            1
+                                        ]
+                                    ],
+                                    "weight_threshold": 1
+                                }
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "qprivatekey:active-initminerq"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "h",
+                "tx": {
+                    "operations": [
+                        [
+                            "transfer",
+                            {
+                                "amount": [
+                                    "200000000000",
+                                    300,
+                                    "@@000000021"
+                                ],
+                                "from": "initminer",
+                                "memo": "Fund porting balances",
+                                "to": "porter"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "hprivatekey:active-initminerh"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-0",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-0j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-1",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-1j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-2",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-2j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-3",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-3j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-4",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-4j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-5",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-5j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-6",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-6j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-7",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-7j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-8",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-8j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-9",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-9j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-10",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-10j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-11",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-11j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-12",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-12j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-13",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-13j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-14",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-14j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-15",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-15j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-16",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-16j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-17",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-17j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-18",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-18j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-19",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-19j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "j",
+                "tx": {
+                    "operations": [
+                        [
+                            "witness_update",
+                            {
+                                "block_signing_key": "TST6LLegbAgLAy28EHrffBVuANFWcFgmqRMW13wBmTExqFE9SCkg4",
+                                "fee": [
+                                    "0",
+                                    3,
+                                    "@@000000021"
+                                ],
+                                "owner": "init-20",
+                                "props": {},
+                                "url": "https://steemit.com/"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "jprivatekey:active-init-20j"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-0",
+                                "approve": true,
+                                "witness": "init-0"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-0",
+                                "approve": true,
+                                "witness": "init-1"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-0",
+                                "approve": true,
+                                "witness": "init-3"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-0",
+                                "approve": true,
+                                "witness": "init-14"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-0d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-1",
+                                "approve": true,
+                                "witness": "init-1"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-1",
+                                "approve": true,
+                                "witness": "init-2"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-1",
+                                "approve": true,
+                                "witness": "init-3"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-1",
+                                "approve": true,
+                                "witness": "init-18"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-1d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-2",
+                                "approve": true,
+                                "witness": "init-2"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-2",
+                                "approve": true,
+                                "witness": "init-3"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-2",
+                                "approve": true,
+                                "witness": "init-4"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-2",
+                                "approve": true,
+                                "witness": "init-5"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-2",
+                                "approve": true,
+                                "witness": "init-11"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-2d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-3",
+                                "approve": true,
+                                "witness": "init-0"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-3",
+                                "approve": true,
+                                "witness": "init-6"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-3",
+                                "approve": true,
+                                "witness": "init-7"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-3d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-4",
+                                "approve": true,
+                                "witness": "init-0"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-4",
+                                "approve": true,
+                                "witness": "init-8"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-4",
+                                "approve": true,
+                                "witness": "init-9"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-4",
+                                "approve": true,
+                                "witness": "init-11"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-4",
+                                "approve": true,
+                                "witness": "init-20"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-4d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-5",
+                                "approve": true,
+                                "witness": "init-10"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-5",
+                                "approve": true,
+                                "witness": "init-11"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-5",
+                                "approve": true,
+                                "witness": "init-15"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-5",
+                                "approve": true,
+                                "witness": "init-19"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-5d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-6",
+                                "approve": true,
+                                "witness": "init-2"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-6",
+                                "approve": true,
+                                "witness": "init-4"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-6",
+                                "approve": true,
+                                "witness": "init-12"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-6",
+                                "approve": true,
+                                "witness": "init-13"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-6",
+                                "approve": true,
+                                "witness": "init-14"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-6d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-7",
+                                "approve": true,
+                                "witness": "init-0"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-7",
+                                "approve": true,
+                                "witness": "init-3"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-7",
+                                "approve": true,
+                                "witness": "init-5"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-7",
+                                "approve": true,
+                                "witness": "init-14"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-7",
+                                "approve": true,
+                                "witness": "init-15"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-7d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-8",
+                                "approve": true,
+                                "witness": "init-7"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-8",
+                                "approve": true,
+                                "witness": "init-15"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-8",
+                                "approve": true,
+                                "witness": "init-16"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-8",
+                                "approve": true,
+                                "witness": "init-17"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-8d"
+                    ]
+                }
+            }
+        ],
+        [
+            "submit_transaction",
+            {
+                "esc": "d",
+                "tx": {
+                    "operations": [
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-9",
+                                "approve": true,
+                                "witness": "init-2"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-9",
+                                "approve": true,
+                                "witness": "init-14"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-9",
+                                "approve": true,
+                                "witness": "init-17"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-9",
+                                "approve": true,
+                                "witness": "init-18"
+                            }
+                        ],
+                        [
+                            "account_witness_vote",
+                            {
+                                "account": "elect-9",
+                                "approve": true,
+                                "witness": "init-19"
+                            }
+                        ]
+                    ],
+                    "wif_sigs": [
+                        "dprivatekey:active-elect-9d"
+                    ]
+                }
+            }
+        ],
+        [
+            "wait_blocks",
+            {
+                "count": 1000000000,
+                "esc": "d"
+            }
+        ]
+    ]
+}
